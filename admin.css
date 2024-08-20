@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #333;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.admin-welcome {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.admin-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.admin-options button {
+    padding: 15px 25px;
+    margin: 0 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.admin-options button:hover {
+    background-color: #e55b00;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
